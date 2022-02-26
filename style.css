@@ -1,0 +1,45 @@
+body {
+  background: #082530;
+}
+/*Button Section Start*/
+.button_section {
+  width: 400px;
+  height: 160px;
+  background: white;
+  border: 2px dotted black;
+  border-radius: 30px;
+}
+.btn_on {
+  width: 150px;
+  height: 150px;
+  background: green;
+  border-radius: 50px;
+  font-size: 60px;
+  color: white;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.btn_off {
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 50px;
+  font-size: 60px;
+  color: white;
+}
+/*Button Section end*/
+/*Image Section Start*/
+.on {
+  width: 600px;
+  height: 400px;
+  margin-left: 570px;
+  margin-top: -200px;
+  transition: opacity 0.1s;
+}
+.off {
+  width: 600px;
+  height: 400px;
+  margin-left: 800px;
+  margin-top: -230px;
+}
+/*Image Section end*/

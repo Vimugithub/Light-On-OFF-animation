@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light on off</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--Button Section Start-->
+    <div class="button_section">
+      <input type="button" value="ON" class="btn_on" id="light_on" />
+      <input type="button" value="OFF" class="btn_off" id="light_off" />
+    </div>
+    <!--Button Section End-->
+    <!--Image Section Start-->
+    <img src="light.png" class="off" id="light" />
+    <img src="lemp.png" class="on" id="lemp" hidden="" />
+    <!--Image Section End-->
+    <!--JQuery Section Start-->
+    <script type="text/javascript">
+      $("#light_off").click(function () {
+        $("#lemp").fadeOut();
+      });
+      $("#light_on").click(function () {
+        $("#lemp").fadeIn();
+      });
+    </script>
+    <!--JQuery Section end-->
+  </body>
+</html>
