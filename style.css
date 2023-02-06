@@ -10,8 +10,8 @@ body {
   border-radius: 30px;
 }
 .btn_on {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: green;
   border-radius: 50px;
   font-size: 60px;
@@ -20,8 +20,8 @@ body {
   margin-left: 50px;
 }
 .btn_off {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: red;
   border-radius: 50px;
   font-size: 60px;
